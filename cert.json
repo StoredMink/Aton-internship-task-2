@@ -1,0 +1,114 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3166981033920052822 (0x2bf3607891343e56)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = US, ST = Arizona, L = Scottsdale, O = "GoDaddy.com, Inc.", OU = http://certs.godaddy.com/repository/, CN = Go Daddy Secure Certificate Authority - G2
+        Validity
+            Not Before: Sep 10 13:53:56 2024 GMT
+            Not After : Oct 12 13:53:56 2025 GMT
+        Subject: CN = *.sucuri.net
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:bd:7c:ff:b2:98:0e:6c:b8:cd:c8:4f:73:62:1e:
+                    12:1c:54:36:1d:a9:ba:a6:39:bc:10:21:1d:30:9e:
+                    eb:14:da:ce:70:23:c2:97:96:1e:38:1e:05:3b:1e:
+                    c7:d8:74:40:01:20:59:5d:20:8e:a5:55:4e:b7:e3:
+                    03:22:bf:ed:53:bf:50:33:2f:bc:28:b3:9c:80:68:
+                    70:da:ea:3b:cb:19:8a:b5:2a:f5:9a:f8:0a:40:31:
+                    99:e6:78:73:40:2a:df:85:32:39:b1:f4:5c:ed:ac:
+                    8b:fe:89:0f:04:cd:d1:eb:2f:bf:bf:dc:57:f3:55:
+                    64:15:85:13:2e:44:12:10:20:04:0b:be:ad:7e:e7:
+                    0b:87:40:60:4f:76:d0:63:ae:5c:bf:df:a7:da:a4:
+                    0e:6f:32:59:89:0d:0f:aa:c1:7e:52:77:3d:53:76:
+                    ea:12:36:de:79:a8:0c:3c:e6:f9:1e:b5:d0:c3:e6:
+                    3a:57:37:cb:bb:60:61:1d:7f:9d:ac:d0:97:da:5e:
+                    07:b0:40:d7:5a:f2:e9:4f:76:51:93:f8:59:10:91:
+                    21:79:e0:03:30:9f:b6:f2:bd:39:8e:25:ae:e1:07:
+                    f4:19:c9:89:67:3d:07:a5:d8:07:8a:8f:95:d3:d4:
+                    dc:eb:ad:d2:b6:6d:03:7a:36:6e:b5:80:e1:70:4f:
+                    32:79
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.godaddy.com/gdig2s1-30057.crl
+
+            X509v3 Certificate Policies: 
+                Policy: 2.16.840.1.114413.1.7.23.1
+                  CPS: http://certificates.godaddy.com/repository/
+                Policy: 2.23.140.1.2.1
+
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.godaddy.com/
+                CA Issuers - URI:http://certificates.godaddy.com/repository/gdig2.crt
+
+            X509v3 Authority Key Identifier: 
+                keyid:40:C2:BD:27:8E:CC:34:83:30:A2:33:D7:FB:6C:B3:F0:B4:2C:80:CE
+
+            X509v3 Subject Alternative Name: 
+                DNS:*.sucuri.net, DNS:sucuri.net
+            X509v3 Subject Key Identifier: 
+                CC:E6:14:F5:3E:29:57:4F:E2:9B:3D:20:B5:58:A9:92:32:EF:5C:CF
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 12:F1:4E:34:BD:53:72:4C:84:06:19:C3:8F:3F:7A:13:
+                                F8:E7:B5:62:87:88:9C:6D:30:05:84:EB:E5:86:26:3A
+                    Timestamp : Sep 10 13:53:56.976 2024 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:D7:8F:DC:DC:AF:71:2A:54:C8:3E:90:
+                                AD:92:92:C9:B0:60:14:D7:D3:8C:2F:4F:FA:5C:70:37:
+                                52:D4:35:6F:A9:02:20:6A:E6:D8:69:10:0B:74:24:01:
+                                1D:57:7F:F8:1D:A1:0A:42:DA:CC:98:37:43:CD:6A:F4:
+                                F0:F1:18:8A:B9:03:EB
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : 7D:59:1E:12:E1:78:2A:7B:1C:61:67:7C:5E:FD:F8:D0:
+                                87:5C:14:A0:4E:95:9E:B9:03:2F:D9:0E:8C:2E:79:B8
+                    Timestamp : Sep 10 13:53:57.271 2024 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:BE:B9:5C:18:55:27:80:81:CF:2B:C5:
+                                37:A5:8A:A7:7F:3E:0E:A0:E2:8E:6A:A2:46:72:E7:A8:
+                                74:24:EA:7F:C9:02:21:00:F0:DE:C8:73:BD:F6:6C:B6:
+                                D3:A6:05:A3:E1:AC:FD:7D:09:B0:D0:5D:41:DF:72:AF:
+                                9F:CC:96:D6:E1:59:33:37
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : CC:FB:0F:6A:85:71:09:65:FE:95:9B:53:CE:E9:B2:7C:
+                                22:E9:85:5C:0D:97:8D:B6:A9:7E:54:C0:FE:4C:0D:B0
+                    Timestamp : Sep 10 13:53:57.393 2024 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:21:00:90:14:88:91:06:16:31:68:F7:B6:51:
+                                94:E0:68:A4:6E:51:6C:40:DC:53:16:A7:57:07:4F:B7:
+                                C2:DC:17:41:58:02:20:55:2E:D9:8E:92:91:6E:B7:E4:
+                                3E:97:6F:48:57:8D:EE:45:48:8F:29:B5:AB:3A:3D:4B:
+                                24:68:B8:EC:04:62:22
+    Signature Algorithm: sha256WithRSAEncryption
+         69:12:bd:31:31:6d:a4:3c:e9:8b:27:83:d5:90:89:d9:66:85:
+         5f:94:03:b6:82:6c:b1:38:d9:21:15:f7:9f:86:36:4b:06:a9:
+         74:f9:1c:3c:7b:e0:16:11:d2:40:f9:08:7e:75:c0:49:1d:a9:
+         16:66:3a:75:3a:a7:93:cf:80:94:f1:10:d7:9e:1a:d6:13:0c:
+         cf:61:0d:89:58:48:7a:f3:52:67:1e:e3:ea:6c:61:ba:c6:f2:
+         0e:34:24:83:8f:d6:e3:23:bc:a0:11:41:46:7e:38:c0:54:fa:
+         9f:55:4a:f0:07:6b:d9:6a:dc:5f:9f:a0:6c:c1:5c:99:3a:c3:
+         52:d0:90:24:fd:23:12:43:d9:1a:49:71:eb:0e:36:d3:35:33:
+         02:c1:79:8b:35:4d:d4:7e:b5:bb:0f:81:88:aa:e0:55:4d:da:
+         d1:0b:27:ec:78:b3:30:dc:22:05:05:0b:38:fd:ce:95:01:85:
+         09:5d:36:3c:ba:dc:be:63:01:c9:4e:ab:60:7b:83:9f:dd:ef:
+         b5:ef:f6:9b:7e:e6:da:32:66:69:81:28:75:7c:5f:70:26:5d:
+         9f:5a:05:d3:7b:33:06:99:97:1c:08:02:34:ca:2a:18:57:97:
+         35:9b:9d:36:b0:e8:67:fe:21:e3:1f:56:a4:1b:57:69:5b:ee:
+         ce:3e:14:e5
