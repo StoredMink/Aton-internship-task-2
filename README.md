@@ -13,7 +13,7 @@
 Создаем образ
 
 ```bash
-docker build -t website-image .
+docker-compose up -d
 ```
 
 ### Остановка
