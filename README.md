@@ -10,8 +10,10 @@
 
 ### Запуск
 
+Создаем образ
+
 ```bash
-docker-compose up --build -d
+docker build -t website-image .
 ```
 
 ### Остановка
